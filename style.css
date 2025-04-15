@@ -63,7 +63,7 @@ header h1{
 
   
 #education {
-    background-color: #f1f8e9;
+    background-color: #e4cbdb;
     padding: 20px;
     border-radius: 10px;
     margin-bottom: 30px;
@@ -101,15 +101,15 @@ header h1{
   }
   
   .beginner {
-    background-color: #f44336;
+    background-color: #e8b6b6;
   }
   
   .intermediate {
-    background-color: #ff9800;
+    background-color: #d98883;
   }
   
   .advanced {
-    background-color: #4caf50;
+    background-color: #f07979;
   }
   
   #cv a {

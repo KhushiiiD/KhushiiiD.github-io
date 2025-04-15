@@ -1,0 +1,124 @@
+/* styles.css */
+
+/* default styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Times New Roman', Times, serif;
+    background-color:lavenderblush;
+    color: #333;
+    line-height: 1.6;
+    padding: 20px;
+}
+
+header{
+    background-color: lavenderblush;
+    padding: 20px;
+    text-align: center;
+    border-radius: 10px;
+    margin-bottom: 30px;
+}
+
+header h1{
+    font-size: 2.5em;
+    color: lightcoral;
+}
+
+#about{
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.profile-picture{
+    width: 180px;
+    height: 180px;
+    border-radius: 50%;
+    object-fit:scale-down;
+    margin: 10px 0;
+    border: 3px solid lightpink;
+}
+
+#birthplace .gallery {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    flex-wrap: wrap;
+    margin-top: 10px;
+}
+  
+#birthplace .gallery img {
+    width: 200px;
+    height: auto;
+    border-radius: 10px;
+    transition: transform 0.3s ease;
+}
+  
+#birthplace .gallery img:hover {
+    transform: scale(1.05);
+}
+
+  
+#education {
+    background-color: #f1f8e9;
+    padding: 20px;
+    border-radius: 10px;
+    margin-bottom: 30px;
+  }
+  
+  #education ul {
+    list-style-type: square;
+    padding-left: 20px;
+  }
+  
+  #education li {
+    margin: 10px 0;
+  }
+
+  #skills {
+    margin-bottom: 30px;
+  }
+  
+  .skills-list {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .skills-list li {
+    margin: 10px 0;
+    font-weight: bold;
+  }
+  
+  .badge {
+    margin-left: 10px;
+    padding: 3px 8px;
+    border-radius: 12px;
+    font-size: 0.9em;
+    color: white;
+  }
+  
+  .beginner {
+    background-color: #f44336;
+  }
+  
+  .intermediate {
+    background-color: #ff9800;
+  }
+  
+  .advanced {
+    background-color: #4caf50;
+  }
+  
+  #cv a {
+    color: #1565c0;
+    text-decoration: none;
+    font-weight: bold;
+  }
+  
+  #cv a:hover {
+    text-decoration: underline;
+  }
+  

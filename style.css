@@ -37,7 +37,7 @@ header h1{
     width: 180px;
     height: 180px;
     border-radius: 50%;
-    object-fit:scale-down;
+    object-fit: cover;
     margin: 10px 0;
     border: 3px solid lightpink;
 }
